@@ -168,7 +168,7 @@ public class ArtistSearchOop {
             
         while (true)
         {
-         System.out.println("Please Enter a value between 0 and 6"); 
+         System.out.println("Please Enter a value from 1 to 5 (-1 to exit)"); 
          input = scan.nextInt();
          art.salesSummary(input);
         }
